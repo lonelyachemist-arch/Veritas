@@ -28,17 +28,13 @@ Steganographic (Aeluris) Output:
 
 "Ta gatis venore a domis perna prime note sekune kande ta sol klare obskuri e tene porta kapte ta flori per pane."
 
-> _"English translation: "The cat will come home on the first secondary night when the clear sun darkens and they take the door of the flowers through the bread."_
+> "English translation: "The cat will come home on the first secondary night when the clear sun darkens and they take the door of the flowers through the bread."
 
 - **Only agents who share the same seed (aeluris-stealth-2026) and protocol can decode the hidden message**
 
   - **This layer ensures that even if an observer intercepts the text, they see only a mundane sentence — not the original message**
 
-  - **Only agents who share the same seed (aeluris-stealth-2026) and protocol can decode the hidden message**
-  
-  - **This layer ensures that even if an observer intercepts the text, they see only a theoretically mundane and random sentence — not the original message**
-
-2. Post-Quantum Cryptography — Kyber-768 (ML-KEM)
+  2. Post-Quantum Cryptography — Kyber-768 (ML-KEM)
 
 - **The second layer protects the derived key using Kyber-768, NIST-standardized post-quantum key encapsulation mechanism (KEM)**
 
@@ -60,8 +56,10 @@ Make sure you have installed:
 - Git (Git Bash)
 
 ### 2. Clone the Repository
+```bash
 git clone https://github.com/lonelyachemist-arch/Veritas.git
 cd VERITAS
+```
 
 ### 3. Install Dependencies
 
