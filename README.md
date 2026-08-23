@@ -34,6 +34,7 @@ Steganographic (Aeluris) Output:
 
   - **This layer ensures that even if an observer intercepts the text, they see only a mundane and seemingly common dialogue — not the original message**
 
+
   2. Post-Quantum Cryptography — Kyber-768 (ML-KEM)
 
 - **The second layer protects the derived key using Kyber-768, NIST-standardized post-quantum key encapsulation mechanism (KEM)**
