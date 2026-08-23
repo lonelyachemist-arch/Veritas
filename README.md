@@ -32,7 +32,7 @@ Steganographic (Aeluris) Output:
 
 - **Only agents who share the same seed (aeluris-stealth-2026) and protocol can decode the hidden message**
 
-  - **This layer ensures that even if an observer intercepts the text, they see only a mundane sentence — not the original message**
+  - **This layer ensures that even if an observer intercepts the text, they see only a mundane and seemingly common dialogue — not the original message**
 
   2. Post-Quantum Cryptography — Kyber-768 (ML-KEM)
 
