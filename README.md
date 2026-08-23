@@ -1,7 +1,7 @@
 # Veritas
 **Veritas** ("Truth") is a proof-of-concept (POC) that redefines the fusion of linguistic steganography and Post-Quantum Cryptography (PQC). By **inverting the flawed architecture of Abhedyam**, Veritas applies steganography to the *plaintext* before cryptographic operations, creating an actual defense layer, rather than a merely visual or aesthetic one. 
 
-> _ "Steganography first. Encryption after."_
+> _ "Steganography first, Encryption after."
 
 ## Architecture
 Veritas is built on two core layers that work in sequence to protect the original message: 
@@ -64,14 +64,20 @@ git clone https://github.com/lonelyachemist-arch/Veritas.git
 cd VERITAS
 
 ### 3. Install Dependencies
+
+```bash
 npm install
+```
 This will install the PQC SDK (@pqc/sdk) listed in package.json
 
  ### 4. Run the POC
-# Run the encryption flow
+
+```bash
+## Run the encryption flow
 node veritas-encrypt
 
-# Run the decryption flow
+## Run the decryption flow
 node veritas-decrypt
+```
 
 
