@@ -67,7 +67,7 @@ cd VERITAS
 ```bash
 npm install
 ```
-This will install the PQC SDK (@pqc/sdk) listed in package.json
+
 
  ### 4. Run the POC
 
