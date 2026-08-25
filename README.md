@@ -1,5 +1,5 @@
 # Veritas
-**Veritas** ("Truth") is a proof-of-concept (POC) that redefines the fusion of linguistic steganography and Post-Quantum Cryptography (PQC). By **inverting the flawed architecture of Abhedyam**, Veritas applies steganography to the *plaintext* before cryptographic operations, creating an actual defense layer, rather than a merely visual or aesthetic one. 
+**Veritas** ("Truth") is a proof-of-concept (POC) that redefines the fusion of linguistic steganography and Post-Quantum Cryptography (PQC). By **inverting the flawed architecture porposed by the Abhedyam project**, Veritas applies steganography to the *plaintext* before cryptographic operations, creating an actual defense layer, rather than a merely visual or aesthetic one. 
 
 > "Steganography first, Encryption later."
 
