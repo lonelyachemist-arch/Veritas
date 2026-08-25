@@ -14,7 +14,7 @@ Veritas is built on two core layers that work in sequence to protect the origina
 
 - **The language derives from Latin and operates in covert mode, which means**:
 
-- **The output text reads like an seemingly everyday dialougue (about cats, bread, flowers, etc.)**
+- **The output text reads like an seemingly everyday dialogue (about cats, bread, flowers, etc.)**
 
 - **The actual data is hidden in the third level of meaning: a vowel shift pattern applied to every third word**.
 
