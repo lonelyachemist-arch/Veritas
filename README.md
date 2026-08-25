@@ -8,7 +8,7 @@ Veritas is built on two core layers that work in sequence to protect the origina
 
 ## 1. Linguistic Steganography — GLOSSOPETRAE · Aeluris
 
-- **The first layer transforms the plaintext into an innocent-looking message using GLOSSOPETRAE, a procedural xenolinguistic steganography engine**
+- **The first layer transforms the plaintext into an innocent-looking message using GLOSSOPETRAE as a replacement for Abhedyam's abhedya-chhandas engine**
 
  - **GLOSSOPETRAE generates the Aeluris language from a deterministic seed (aeluris-stealth-2026)**.
 
@@ -39,11 +39,9 @@ Steganographic (Aeluris) Output:
 
 - **The second layer protects the derived key using Kyber-768, NIST-standardized post-quantum key encapsulation mechanism (KEM)**
 
-  - **The Aeluris text is passed through a KDF (Key Derivation Function) to produce a symmetric key**
+- **This key is encapsulated with Kyber using the recipient's public key**
 
-  - **This key is encapsulated with Kyber using the recipient's public key**
-
-  - **The resulting ciphertext is what gets transmitted**
+ - **The resulting ciphertext is what gets transmitted**
 
 ## Installation
 
